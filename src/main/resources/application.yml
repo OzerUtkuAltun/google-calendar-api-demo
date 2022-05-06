@@ -1,0 +1,6 @@
+
+calendar:
+  service:
+    account-id: obss-demo@demoapp-348713.iam.gserviceaccount.com
+    auth-file-path: /auth.p12
+    application-name: demo-app
