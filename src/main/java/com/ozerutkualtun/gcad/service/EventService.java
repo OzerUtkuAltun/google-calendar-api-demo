@@ -5,5 +5,7 @@ import com.ozerutkualtun.gcad.model.ApiResponse;
 
 public interface EventService {
 
-    ApiResponse createEvent();
+    ApiResponse<Object> createEvent();
+
+    ApiResponse<Object> listEvents();
 }
